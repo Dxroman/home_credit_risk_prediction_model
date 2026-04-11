@@ -1,0 +1,1 @@
+This is my take on the classic Home Credit Default Risk challenge from Kaggle. Even though the dataset is from 2018, I wanted to use it to show a different approach. Instead of just stacking 50 black-box models to get the highest ROC-AUC possible, I wanted to actually explain why people default, combining my background in economics with data science.
