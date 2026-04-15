@@ -2,7 +2,7 @@ This is my take on the classic Home Credit Default Risk challenge from Kaggle. E
 What is this project about?
 This notebook covers the whole pipeline, from raw data to business decisions:
 
-Data Wrangling: Using SQL and Pandas to filter, aggregate, and merge the historical credit tables. (And yes, you might see that I forgot to put index=False a couple of times while exporting CSVs. Lesson learned!).
+Data Wrangling: Using SQL and Pandas to filter, aggregate, and merge the historical credit tables. (And yes, you might see that I forgot to put index=False a couple of times while exporting CSVs. Lesson learned).
 
 Feature Selection: I let an XGBoost model do the heavy lifting to find the most predictive variables using its Gain score, avoiding manual bias.
 
